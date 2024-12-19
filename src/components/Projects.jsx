@@ -6,28 +6,28 @@ const Projects = () => {
       name: "Pokedex App",
       description: "Search Pokémon by name or filter by type.",
       link: "https://pokedex-app-one-steel.vercel.app",
-      img: "./src/assets/images/Pokedex.PNG",
+      img: "/Pokedex.PNG",
     },
     {
       name: "Admin Dashboard",
       description:
         "The dashboard includes dynamic tables, charts, and user management features. It’s designed to help streamline data visualization and admin tasks.",
       link: "https://react-admin-dashboard-zeta-jet.vercel.app",
-      img: "./src/assets/images/dashboard.jpg",
+      img: "/dashboard.jpg",
     },
     {
       name: "E-commerce",
       description:
         "This e-commerce site allow us to easily browse through products and filter by categories to quickly find what you're looking for.",
       lomk: "https://e-commerce-phi-flax-62.vercel.app",
-      img: "./src/assets/images/E-commerce.png",
+      img: "/E-commerce.png",
     },
     {
       name: "Weather App",
       description:
         " this app provides real-time weather updates for any city worldwide 🌍",
       link: "https://weather-application-six-tau.vercel.app",
-      img: "./src/assets/images/WeatherApp.jpg",
+      img: "/WeatherApp.jpg",
     },
     {
       name: "Backend",
