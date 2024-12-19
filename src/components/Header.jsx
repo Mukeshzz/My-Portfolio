@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="bg-[#0A2647] text-white p-4 ">
+    <header className="bg-[#0A2647] text-white p-4 fixed w-full">
       <nav className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Portfolio</h1>
         <ul className="flex space-x-6">
