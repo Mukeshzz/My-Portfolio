@@ -56,7 +56,7 @@ const Skills = () => {
           {skills.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
+              className="flex flex-col items-center bg-white p-6 rounded-3xl shadow hover:shadow-lg transition"
             >
               <img
                 src={item.img}

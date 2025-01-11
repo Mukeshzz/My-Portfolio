@@ -50,7 +50,7 @@ const Projects = () => {
             <>
               <div
                 key={index}
-                className="bg-white p-6 shadow rounded-lg hover:shadow-lg transition"
+                className="bg-white p-6 shadow rounded-3xl hover:shadow-lg transition"
               >
                 {project.img && (
                   <img
