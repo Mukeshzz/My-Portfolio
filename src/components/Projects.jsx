@@ -1,7 +1,28 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const Projects = () => {
+  const transition = {
+    duration: 0.8,
+    delay: 0.5,
+    ease: [0, 0.71, 0.2, 1.01],
+  };
+
   const projects = [
+    {
+      name: "Job Portal",
+      description:
+        "A full-stack job portal where users can search, apply, and post jobs seamlessly.",
+      link: "https://job-portal-sigma-sand.vercel.app",
+      img: "/JobPortal1.jpg",
+    },
+    {
+      name: "Landing Page",
+      description:
+        "A modern landing page designed to showcase businesses and products",
+      link: "https://landing-page-mu-fawn-59.vercel.app/",
+      img: "/landing.jpg",
+    },
     {
       name: "Pokedex App",
       description: "Search Pokémon by name or filter by type.",
@@ -28,16 +49,6 @@ const Projects = () => {
         " this app provides real-time weather updates for any city worldwide 🌍",
       link: "https://weather-application-six-tau.vercel.app",
       img: "/WeatherApp.jpg",
-    },
-    {
-      name: "Backend",
-      description: "Complete Backend project",
-      link: "https://github.com/Mukeshzz/backend",
-    },
-    {
-      name: "School Management System",
-      description: "A system to manage school data.",
-      link: "https://github.com/Mukeshzz/school-management-nodejs-mysql",
     },
   ];
 
