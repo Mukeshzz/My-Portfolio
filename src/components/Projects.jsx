@@ -40,7 +40,7 @@ const Projects = () => {
       name: "E-commerce",
       description:
         "This e-commerce site allow us to easily browse through products and filter by categories to quickly find what you're looking for.",
-      lomk: "https://e-commerce-phi-flax-62.vercel.app",
+      link: "https://e-commerce-phi-flax-62.vercel.app",
       img: "/E-commerce.png",
     },
     {
