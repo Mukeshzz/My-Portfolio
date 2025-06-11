@@ -17,17 +17,17 @@ const Projects = () => {
       img: "/JobPortal1.jpg",
     },
     {
+      name: "Blog App",
+      description: "Publish your blog",
+      link: "https://blog-app-pi-tawny-66.vercel.app/",
+      img: "/blog.jpg",
+    },
+    {
       name: "Landing Page",
       description:
         "A modern landing page designed to showcase businesses and products",
       link: "https://landing-page-mu-fawn-59.vercel.app/",
       img: "/landing.jpg",
-    },
-    {
-      name: "Pokedex App",
-      description: "Search Pokémon by name or filter by type.",
-      link: "https://pokedex-app-one-steel.vercel.app",
-      img: "/Pokedex.PNG",
     },
     {
       name: "Admin Dashboard",
